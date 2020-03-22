@@ -1,9 +1,17 @@
 def base_hash
-  the_hash = { :railroads => {} }
+  the_hash = { 
+    :railroads => {} 
+  }
 end
 
 def monopoly_with_second_tier
-  the_hash = { :railroads => { :pieces => 4 , :rent_in_dollars => {}, :names => {} } }
+  the_hash = { 
+    :railroads => { 
+      :pieces => 4, 
+      :rent_in_dollars => {}, 
+      :names => {} 
+      } 
+     }
   
 
 end
